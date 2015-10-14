@@ -1,0 +1,960 @@
+#for1{
+    width:7%; 
+    float:left; 
+    background-color:rgba(153, 182, 223, 0.8); 
+    border-radius:5px; 
+    margin-left:0px;
+    border:0;
+}
+
+#for2{
+    width:7%; 
+    border:0; 
+    float:left;  
+    background-color:rgba(153, 182, 223, 0.8); 
+    border-radius:5px; 
+    margin-left:10px;"
+}
+
+#for3{
+    width:7%; 
+    border:0; 
+    float:left; 
+    background-color:rgba(153, 182, 223, 1); 
+    border-radius:5px;margin-left:10px;
+}
+
+#for4{
+    width:7%; 
+    border:0; 
+    float:left; background-color:rgba(153, 182, 223, 1);
+    border-radius:5px;
+    margin-left:10px;
+    width:7%; 
+}
+
+#for5{
+    width:7%;
+    border:0; 
+    float:left; 
+    background-color:rgba(153, 182, 223, 1); 
+    border-radius:5px;
+    margin-left:10px;
+}
+
+#for6,#for7,#for8,#for9,#for10,#for11,#for12{
+     width:7%; 
+     border:0; 
+     float:left; 
+     background-color:rgba(153, 182, 223, 1); 
+     border-radius:5px;
+     margin-left:10px;
+}
+
+.col {
+        padding:1em 0; 
+        text-align:center;
+    }
+
+    body { 
+        padding:2em; 
+        font:'Helvetica Neue', arial, helvetica, helve, sans-serif; 
+        background:url("../img/bg.jpg");
+        background-size:130%;
+        width:95vw;
+        height:100hv;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size: cover;
+    }
+
+    h1 { 
+        font-size:2.2em; 
+        padding:0 0 .5em 0; 
+    }
+
+    h2 {
+        font-size:1.5em; 
+    }
+
+    .header { 
+        padding:1em 0; 
+    }
+
+
+body {
+    line-height: 1;
+}
+
+#logo{
+    text-align:center;
+    width:24%; 
+    border:0;
+}
+
+#words{
+    font-size: 1.5em;
+        font-weight:bold;
+        color:white;
+}
+.spanSpecial {
+    width:79%;
+    font-size:20pt;
+    font-weight:bold;
+    color:white;
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    background-color:gray;
+}
+
+.movingPage {
+    position:absolute;
+    width:78%;
+    left:-1500px;
+}
+
+li:hover{
+    cursor:hand;
+    cursor:pointer;
+}
+
+#itemsTable1 {
+    box-shadow: 5px 0px 15px 5px #333333;
+    height:750px;
+    background-color:rgba(87, 117, 127, 0.48);
+    font-size:1.1em;
+    font-family:'courier';
+    text-align:left;
+}
+
+
+
+nav ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration:  line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;   
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+    width: 100%;
+}
+
+.span_1_of_2 {
+    width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 900px) {
+
+#itemsTable1 {
+    font-size:0.9em;
+
+}
+
+.movingPage{
+        margin-left:-1%;
+        width:100%;
+        height:10%;
+        margin-top:1%;
+    }
+
+    #for1,#for2,#for3,#for4,#for5,#for6,#for7,#for8,#for9,#for10,#for11,#for12{
+        width:5.5%;
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+#itemsTable1 {
+    font-size:0.8em;
+}
+
+
+.movingPage{
+        margin-left:-10%;
+        width:100%;
+        height:10%;
+        margin-top:1%;
+    }
+
+    #for1,#for2,#for3,#for4,#for5,#for6,#for7,#for8,#for9,#for10,#for11,#for12{
+        width:5.5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .span_2_of_2 {
+        width: 100%; 
+    }
+    .span_1_of_2 {
+        width: 100%; 
+    }
+}
+
+/*  GRID OF THREE   ============================================================================= */
+
+    
+.span_3_of_3 {
+    width: 100%; 
+}
+
+.span_2_of_3 {
+    width: 66.13%; 
+}
+
+.span_1_of_3 {
+    width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_3_of_3 {
+        width: 100%; 
+    }
+    .span_2_of_3 {
+        width: 100%; 
+    }
+    .span_1_of_3 {
+        width: 100%;
+    }
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+    
+.span_4_of_4 {
+    width: 100%; 
+}
+
+.span_3_of_4 {
+    width: 74.6%; 
+}
+
+.span_2_of_4 {
+    width: 49.2%; 
+}
+
+.span_1_of_4 {
+    width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_4_of_4 {
+        width: 100%; 
+    }
+    .span_3_of_4 {
+        width: 100%; 
+    }
+    .span_2_of_4 {
+        width: 100%; 
+    }
+    .span_1_of_4 {
+        width: 100%; 
+    }
+}
+
+/*  GRID OF FIVE   ============================================================================= */
+
+    
+.span_5_of_5 {
+    width: 100%;
+}
+
+.span_4_of_5 {
+    width: 79.68%; 
+}
+
+.span_3_of_5 {
+    width: 59.36%; 
+}
+
+.span_2_of_5 {
+    width: 39.04%;
+}
+
+.span_1_of_5 {
+    width: 18.72%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_5_of_5 {
+        width: 100%; 
+    }
+    .span_4_of_5 {
+        width: 100%; 
+    }
+    .span_3_of_5 {
+        width: 100%; 
+    }
+    .span_2_of_5 {
+        width: 100%; 
+    }
+    .span_1_of_5 {
+        width: 100%; 
+    }
+}
+
+/*  GRID OF SIX   ============================================================================= */
+
+
+.span_6_of_6 {
+    width: 100%;
+}
+
+.span_5_of_6 {
+    width: 83.06%;
+}
+
+.span_4_of_6 {
+    width: 66.13%;
+}
+
+.span_3_of_6 {
+    width: 49.2%;
+}
+
+.span_2_of_6 {
+    width: 32.26%;
+}
+
+.span_1_of_6 {
+    width: 15.33%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_6_of_6 {
+        width: 100%; 
+    }
+    .span_5_of_6 {
+        width: 100%; 
+    }
+    .span_4_of_6 {
+        width: 100%; 
+    }
+    .span_3_of_6 {
+        width: 100%; 
+    }
+    .span_2_of_6 {
+        width: 100%; 
+    }
+    .span_1_of_6 {
+        width: 100%; 
+    }
+}
+
+
+/*  GRID OF SEVEN   ============================================================================= */
+
+
+.span_7_of_7 {
+    width: 100%;
+}
+
+.span_6_of_7 {
+    width: 85.48%;
+}
+
+.span_5_of_7 {
+    width: 70.97%;
+}
+
+.span_4_of_7 {
+    width: 56.45%;
+}
+
+.span_3_of_7 {
+    width: 41.94%;
+}
+
+.span_2_of_7 {
+    width: 27.42%;
+}
+
+.span_1_of_7 {
+    width: 12.91%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_7_of_7 {
+        width: 100%; 
+    }
+    .span_6_of_7 {
+        width: 100%; 
+    }
+    .span_5_of_7 {
+        width: 100%; 
+    }
+    .span_4_of_7 {
+        width: 100%; 
+    }
+    .span_3_of_7 {
+        width: 100%; 
+    }
+    .span_2_of_7 {
+        width: 100%; 
+    }
+    .span_1_of_7 {
+        width: 100%; 
+    }
+}
+
+/*  GRID OF EIGHT   ============================================================================= */
+
+    
+.span_8_of_8 {
+    width: 100%;
+}
+
+.span_7_of_8 {
+    width: 87.3%; 
+}
+
+.span_6_of_8 {
+    width: 74.6%; 
+}
+
+.span_5_of_8 {
+    width: 61.9%; 
+}
+
+.span_4_of_8 {
+    width: 49.2%; 
+}
+
+.span_3_of_8 {
+    width: 36.5%;
+}
+
+.span_2_of_8 {
+    width: 23.8%; 
+}
+
+.span_1_of_8 {
+    width: 11.1%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_8_of_8 {
+        width: 100%; 
+    }
+    .span_7_of_8 {
+        width: 100%; 
+    }
+    .span_6_of_8 {
+        width: 100%; 
+    }
+    .span_5_of_8 {
+        width: 100%; 
+    }
+    .span_4_of_8 {
+        width: 100%; 
+    }
+    .span_3_of_8 {
+        width: 100%; 
+    }
+    .span_2_of_8 {
+        width: 100%; 
+    }
+    .span_1_of_8 {
+        width: 100%; 
+    }
+}
+
+/*  GRID OF NINE   ============================================================================= */
+
+
+.span_9_of_9 {
+    width: 100%;
+}
+
+.span_8_of_9 {
+    width: 88.71%;
+}
+
+.span_7_of_9 {
+    width: 77.42%; 
+}
+
+.span_6_of_9 {
+    width: 66.13%; 
+}
+
+.span_5_of_9 {
+    width: 54.84%; 
+}
+
+.span_4_of_9 {
+    width: 43.55%; 
+}
+
+.span_3_of_9 {
+    width: 32.26%;
+}
+
+.span_2_of_9 {
+    width: 20.97%; 
+}
+
+.span_1_of_9 {
+    width: 9.68%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_9_of_9 {
+        width: 100%; 
+    }
+    .span_8_of_9 {
+        width: 100%; 
+    }
+    .span_7_of_9 {
+        width: 100%; 
+    }
+    .span_6_of_9 {
+        width: 100%; 
+    }
+    .span_5_of_9 {
+        width: 100%; 
+    }
+    .span_4_of_9 {
+        width: 100%; 
+    }
+    .span_3_of_9 {
+        width: 100%; 
+    }
+    .span_2_of_9 {
+        width: 100%; 
+    }
+    .span_1_of_9 {
+        width: 100%; 
+    }
+}
+
+/*  GRID OF TEN   ============================================================================= */
+
+
+.span_10_of_10 {
+    width: 100%;
+}
+
+.span_9_of_10 {
+    width: 89.84%;
+}
+
+.span_8_of_10 {
+    width: 79.68%;
+}
+
+.span_7_of_10 {
+    width: 69.52%; 
+}
+
+.span_6_of_10 {
+    width: 59.36%; 
+}
+
+.span_5_of_10 {
+    width: 49.2%; 
+}
+
+.span_4_of_10 {
+    width: 39.04%; 
+}
+
+.span_3_of_10 {
+    width: 28.88%;
+}
+
+.span_2_of_10 {
+    width: 18.72%; 
+}
+
+.span_1_of_10 {
+    width: 8.56%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_10_of_10 {
+        width: 100%; 
+    }
+    .span_9_of_10 {
+        width: 100%; 
+    }
+    .span_8_of_10 {
+        width: 100%; 
+    }
+    .span_7_of_10 {
+        width: 100%; 
+    }
+    .span_6_of_10 {
+        width: 100%; 
+    }
+    .span_5_of_10 {
+        width: 100%; 
+    }
+    .span_4_of_10 {
+        width: 100%; 
+    }
+    .span_3_of_10 {
+        width: 100%; 
+    }
+    .span_2_of_10 {
+        width: 100%; 
+    }
+    .span_1_of_10 {
+        width: 100%; 
+    }
+}
+
+
+/*  GRID OF ELEVEN   ============================================================================= */
+
+.span_11_of_11 {
+    width: 100%;
+}
+
+.span_10_of_11 {
+    width: 90.76%;
+}
+
+.span_9_of_11 {
+    width: 81.52%;
+}
+
+.span_8_of_11 {
+    width: 72.29%;
+}
+
+.span_7_of_11 {
+    width: 63.05%; 
+}
+
+.span_6_of_11 {
+    width: 53.81%; 
+}
+
+.span_5_of_11 {
+    width: 44.58%; 
+}
+
+.span_4_of_11 {
+    width: 35.34%; 
+}
+
+.span_3_of_11 {
+    width: 26.1%;
+}
+
+.span_2_of_11 {
+    width: 16.87%; 
+}
+
+.span_1_of_11 {
+    width: 7.63%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_11_of_11 {
+        width: 100%; 
+    }
+    .span_10_of_11 {
+        width: 100%; 
+    }
+    .span_9_of_11 {
+        width: 100%; 
+    }
+    .span_8_of_11 {
+        width: 100%; 
+    }
+    .span_7_of_11 {
+        width: 100%; 
+    }
+    .span_6_of_11 {
+        width: 100%; 
+    }
+    .span_5_of_11 {
+        width: 100%; 
+    }
+    .span_4_of_11 {
+        width: 100%; 
+    }
+    .span_3_of_11 {
+        width: 100%; 
+    }
+    .span_2_of_11 {
+        width: 100%; 
+    }
+    .span_1_of_11 {
+        width: 100%; 
+    }
+}
+
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span_12_of_12 {
+    width: 100%;
+}
+
+.span_11_of_12 {
+    width: 91.53%;
+}
+
+.span_10_of_12 {
+    width: 83.06%;
+}
+
+.span_9_of_12 {
+    width: 74.6%;
+}
+
+.span_8_of_12 {
+    width: 66.13%;
+}
+
+.span_7_of_12 {
+    width: 57.66%; 
+}
+
+.span_6_of_12 {
+    width: 49.2%; 
+}
+
+.span_5_of_12 {
+    width: 40.73%; 
+}
+
+.span_4_of_12 {
+    width: 32.26%; 
+}
+
+.span_3_of_12 {
+    width: 23.8%;
+}
+
+.span_2_of_12 {
+    width: 15.33%; 
+}
+
+.span_1_of_12 {
+    width: 6.86%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .span_12_of_12 {
+        width: 100%; 
+    }
+    .span_11_of_12 {
+        width: 100%; 
+    }
+    .span_10_of_12 {
+        width: 100%; 
+    }
+    .span_9_of_12 {
+        width: 100%; 
+    }
+    .span_8_of_12 {
+        width: 100%; 
+    }
+    .span_7_of_12 {
+        width: 100%; 
+    }
+    .span_6_of_12 {
+        width: 100%; 
+    }
+    .span_5_of_12 {
+        width: 100%; 
+    }
+    .span_4_of_12 {
+        width: 100%; 
+    }
+    .span_3_of_12 {
+        width: 100%; 
+    }
+    .span_2_of_12 {
+        width: 100%; 
+    }
+    .span_1_of_12 {
+        width: 100%; 
+    }
+}
+
+
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col { 
+        margin: 1% 0 1% 0%;
+    }
+
+    #menuicon{
+        margin-left:-17%;
+        margin-top:-20%;
+    }
+
+    #words{
+        font-size:1.02em;
+        margin-left:5%;
+    }
+
+    #logo{
+        width:60%;
+        margin-left:10%;
+    }
+
+    #itemsTable1{
+        margin-top:-23%;
+        height:800px;
+        font-size:0.7em;
+        font-family:'courier';
+    }
+
+    .movingPage{
+        margin-left:-32%;
+        width:110%;
+        height:10%;
+    }
+
+    #for1,#for2,#for3,#for4,#for5,#for6,#for7,#for8,#for9,#for10,#for11,#for12{
+        width:5.5%;
+    }
+
+
+
+}
